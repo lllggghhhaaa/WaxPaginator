@@ -1,11 +1,12 @@
 {
   "name": "waxpaginator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Embed paginator for discord.js",
   "main": "WaxPaginator.js",
   "scripts": {
     "test": "node tests\\index.js"
   },
+  "files": ["WaxPaginator.js"],
   "keywords": [],
   "author": "",
   "license": "ISC",
