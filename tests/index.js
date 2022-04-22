@@ -34,4 +34,4 @@ client.on("messageCreate", message => {
     }
 });
 
-client.login("NzY1Njc2Njk5OTk1MDc4Njg3.X4YR_g.TT-2EPwS9KyB4AUBES-qsNqoMUo");
+client.login("ceira");
