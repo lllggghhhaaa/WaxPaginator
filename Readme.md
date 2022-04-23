@@ -1,5 +1,5 @@
 ## Install
-`npm i wax-paginator`
+`npm i waxpaginator`
 
 ## Setup
 ```js
