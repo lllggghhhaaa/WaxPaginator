@@ -85,8 +85,7 @@ function generateEmbedPagination(text, { title, color, maxlen = 2048}) {
         const embed = new MessageEmbed()
         .setTitle(title)
         .setDescription(texts[i])
-        .setColor(color)
-        .setFooter({ text: `Page ${i + 1}/${texts.length}` });
+        .setColor(color);
 
         embeds.push(embed);
     }
@@ -115,6 +114,10 @@ class Paginator {
      * @param { MessageEmbed[] } embeds 
      */
     constructor(embeds) {
+        for (let i = 0; i < embeds.length; i++) {
+            embeds[i].setFooter({ text: `Page ${i + 1}/${embeds.length}` });
+        }
+
         this.embeds = embeds;
     }
 
